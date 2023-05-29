@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+	<div class="container temp">
+		<div class="converter">
+			<form>
+				<h2>Fahrenheit to Celsius</h2>
+				<input id="fahr" type="number" class="input" step="any">&#8457;&nbsp;&nbsp; = <input id="newcels" type="number" class="new" step="any">&nbsp;&nbsp;&#8451; <input type="button" value="Convert" class="convertfahr btn">
+			</form>
+			<form>
+                <h2>Celsius to Fahrenheit</h2>
+				<input id="cels" type="number" class="input" step="any">&#8451;&nbsp;&nbsp; = <input id="newfahr" type="number" class="new" step="any"> &#8457;
+				<input type="button" value="Convert" class="convertcels btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="container weight">
+		<div class="converter">
+			<form>
+				<h2>Pound to Kilogram</h2>
+				<input id="lb" type="number" class="input" step="any">LB&nbsp;&nbsp; =
+				<input id="newkg" type="number" class="new" step="any"> KG
+				<input type="button" value="Convert" class="convertlb btn">
+			</form>
+			<form>
+                <h2>Kilogram to Pound</h2>
+				<input id="kg" type="number" class="input" step="any">KG&nbsp;&nbsp; =
+				<input id="newlb" type="number" class="new" step="any"> LB
+				<input type="button" value="Convert" class="convertkg btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="container volume">
+		<div class="converter">
+			<form>
+		<h2>Gallon to Liter</h2>
+				<input id="gal" type="number" class="input" step="any">Gal&nbsp;&nbsp; =
+				<input id="newlitr" type="number" class="new" step="any"> L
+				<input type="button" value="Convert" class="convertgal btn">
+			</form>
+			<form>
+            <h2>Liter to Gallon</h2>
+				<input id="litr" type="number" class="input" step="any">L&nbsp;&nbsp; =
+				<input id="newgal" type="number" class="new" step="any"> Gal
+				<input type="button" value="Convert" class="convertli btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="container distance">
+		<div class="converter">
+			<form>
+		<h2>Mile to Kilometer</h2>
+				<input id="mile" type="number" class="input" step="any">Mi&nbsp;&nbsp; =
+				<input id="newkm" type="number" class="new" step="any"> Km
+				<input type="button" value="Convert" class="convertmi btn">
+			</form>
+			<form>
+                <h2>Kilometer to Mile</h2>
+				<input id="km" type="number" class="input" step="any">Km&nbsp;&nbsp; =
+				<input id="newmile" type="number" class="new" step="any"> Mi
+				<input type="button" value="Convert" class="convertkm btn">
+			</form>
+		</div>
+	</div>
+    <!-- custom javascript link -->
+    <script src="./script.js"></script>
+</body>
+</html>
